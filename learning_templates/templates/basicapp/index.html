@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{%extends "basicapp/base.html"%}
+{% block body_block %}
+    <h1>Index HTML</h1>
+    <h1>{{ text|cut:"world" }}</h1>
+    {{number|add:"8"}}
+    {%endblock%}
